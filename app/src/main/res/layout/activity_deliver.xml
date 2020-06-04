@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context=".deliver">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/black"
+        android:text="@string/str2"
+        android:textColor="@color/darkk"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:entries="@array/area"></Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:textColor="@color/darkk"
+        android:textSize="20dp"
+        android:id="@+id/textv11">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkk"
+        android:outlineAmbientShadowColor="@color/black"
+        android:textSize="20dp"
+        android:padding="2dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/textv12">
+    </TextView>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkk"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#DA92AA" />
+
+    <ImageView
+        android:id="@+id/imgv1"
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:layout_gravity="center"
+        android:textColor="@color/darkk"
+        android:paddingTop="60dp"
+        android:src="@drawable/fd2"></ImageView>
+</LinearLayout>

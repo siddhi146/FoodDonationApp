@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".dropbyself">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str3"
+        android:textColor="@color/darkk"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:entries="@array/area"></Spinner>
+
+    <TextView
+        android:id="@+id/textv11"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textColor="@color/darkk"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoSizeTextType="uniform"
+        android:outlineAmbientShadowColor="@color/black"
+        android:padding="2dp"
+        android:paddingBottom="20dp"
+        android:drawableEnd="@drawable/ic_location_on_black_24dp" android:visibility="invisible"
+        android:drawableRight="@drawable/ic_location_on_black_24dp"
+
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/textv12"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkk"
+        android:layout_gravity="center_horizontal"
+        android:autoSizeTextType="uniform"
+        android:outlineAmbientShadowColor="@color/black"
+        android:padding="2dp"
+        android:drawableEnd="@drawable/ic_location_on_black_24dp" android:visibility="invisible"
+        android:drawableRight="@drawable/ic_location_on_black_24dp"
+        android:paddingBottom="20dp"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/textv13"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/darkk"
+        android:autoSizeTextType="uniform"
+        android:drawableEnd="@drawable/ic_location_on_black_24dp" android:visibility="invisible"
+        android:drawableRight="@drawable/ic_location_on_black_24dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:paddingBottom="20dp"
+        android:textSize="20sp"></TextView>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkk"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#DA92AA" />
+
+    <ImageView
+        android:id="@+id/imgv1"
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:layout_gravity="center"
+        android:paddingTop="60dp"
+        android:src="@drawable/fd3"></ImageView>
+
+</LinearLayout>

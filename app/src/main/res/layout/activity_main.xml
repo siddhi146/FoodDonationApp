@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:src="@drawable/ic_person_black_24dp"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+
+            android:ems="11"
+            android:hint="@string/l7"
+            android:inputType="textPersonName"
+            android:textColor="@color/darkk"
+            android:textColorHint="@color/darkk" />
+
+        <EditText
+            android:id="@+id/sname"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+
+            android:ems="11"
+            android:hint="@string/l8"
+            android:inputType="textPersonName"
+            android:textColor="@color/darkk"
+            android:textColorHint="@color/darkk" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:ems="11"
+            android:hint="@string/l9"
+            android:inputType="phone"
+            android:textColor="@color/darkk"
+            android:textColorHint="@color/darkk" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:ems="11"
+            android:hint="@string/l2"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/darkk"
+            android:textColorHint="@color/darkk"></EditText>
+
+        <EditText
+            android:id="@+id/add"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:ems="11"
+            android:hint="@string/l6"
+            android:inputType="textPostalAddress"
+            android:textColor="@color/darkk"
+            android:textColorHint="@color/darkk" />
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:ems="11"
+            android:hint="@string/l3"
+            android:inputType="textPassword"
+            android:textColor="@color/darkk"
+            android:textColorHint="@color/darkk"></EditText>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/signup"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/s1"
+        android:textColor="@color/white"
+        android:visibility="visible"></Button>
+
+    <TextView
+        android:id="@+id/next_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/l"
+        android:textColor="@color/darkk"></TextView>
+
+</LinearLayout>

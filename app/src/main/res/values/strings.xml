@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Charity Food </string>
+    <string name="l1">Sign in</string>
+    <string name="s1">Sign up</string>
+    <string name="l2">Email Address</string>
+    <string name="l3">Password</string>
+    <string name="l">Already have an account? Sign in.</string>
+    <string name="ll">Not registered? Sign up here.</string>
+    <string name="l4">Welcome</string>
+    <string name="l5">Log Out</string>
+    <string name="l6">Residential Address</string>
+    <string name="l7">First Name</string>
+    <string name="l8">Last Name</string>
+    <string name="l9">Phone No.</string>
+    <string name="str1">Select Area</string>
+    <string name="str2">Pick-up Service</string>
+    <string name="str3">Drop by Self</string>
+
+    <string-array name="area">
+        <item>--Select Area--</item>
+        <item>Wadala</item>
+        <item>Khar</item>
+        <item>Bandra</item>
+        <item>Vile Parle</item>
+        <item>Andheri</item>
+        <item>Santacruz</item>
+    </string-array>
+    <string name="stra1">Your food has been scheduled to be picked up!</string>
+
+</resources>
